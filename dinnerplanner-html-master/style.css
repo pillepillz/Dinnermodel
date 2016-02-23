@@ -1,0 +1,96 @@
+.container{
+	background-color:rgba(243,226,60, 0.4);
+	width:100%;
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+	height:120px;
+
+	
+}
+h1{
+	font-family:"Times New Roman",Times,serif;
+	font-size:400%;
+}
+.header{
+	padding-left:5%;
+}
+
+#text1{
+	font-size:40%;
+	padding-left:3%;
+	font-style:italic;
+}
+
+body{
+	background-image:url("http://ckphu.com/site/wp-content/uploads/2012/07/people-eating.jpg");
+	background-image:full;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.exampleView{
+	background-color:rgba(229,229,229,0.6)
+	
+}
+
+.rightside{
+	font-size:250%;
+	margin: 0 0 15px 0;
+	border-bottom:1px solid black;
+	width:70%;
+	padding-top:3%;
+	margin-left:5%;
+
+}
+
+#Loremipsum{
+	font-size:130%;
+	margin-left:5%;
+	margin-right:5%;
+
+}
+.box-left{
+	margin-top:10%;
+	margin-right:60%;
+}
+
+#start-button{
+	margin-left:9%;
+	font-size:130%;
+	padding-top:5%;
+	font-style:italic;
+
+}
+
+#createDinner{
+	margin-left:10%;
+	background:    #f9ce23;
+	border:        2px solid #000;
+	box-shadow:    4px 4px 0 0 #000;
+	color:         #000;
+	display:       inline-block;
+	padding:       8px 20px;
+	font:          normal 400 24px/1 "Zenhei", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+	margin-bottom: 5%;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

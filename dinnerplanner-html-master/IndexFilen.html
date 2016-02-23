@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css">
+
+  </head>
+  <body>
+  <div id="exampleView1">
+
+		  <div class="container">
+				<div class="header">
+					<h1 id="ex1">HOMELETTE<span id="text1">From the best chefs in the world directly into your kitchen</span></h1>
+				</div>
+			</div>
+			<div class="box-left">
+				<div class="exampleView">
+						<h1 class="rightside">A Home Dinner Service</h1>
+						<p id="Loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+						<p id ="start-button">start quickly</p>
+					<button id="createDinner" class="btn">Create New Dinner</button>
+					
+
+
+
+				</div>
+			</div>
+
+		    <!-- jQuery -->
+		    <script src="https://code.jquery.com/jquery.js"></script>
+		    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+		    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+  </div>
+
+
+
+  <div id="exampleView2">
+				  	<div class="container2">
+						<h1 >HOMELETTE<span class="info">From the best chefs in the world directly into your kitchen </span>
+						</h1>
+					</div>
+					<div class="row1">
+					<div class="left1">
+						<div class="menu1">
+							My Dinner
+							<div id ="en-linje1">
+								<span id ="person">People</span>
+
+		
+				   				<span class ="numberOfGuests"> </span>
+				   				<button class="Button" id="plusButt">+</button>
+				   				<button class="Button" id="minusButt">-</button>
+				   			
+								
+							</div>
+						</div>
+
+						<div class="DishName">
+							Dishname <span id="floatright">Cost</span>
+
+						</div>
+
+						<div>
+							<div class ="cost">
+								Pending 
+								<span id="floatright">
+								<span class="empty"></span>
+
+								</span>
+
+							</div>
+						</div>
+						
+
+								<div class ="kostnad">
+									<span id="floatright">SEK
+
+									<span class="empty"></span>
+
+									</span>
+									<span id="getTotalMenuPrice"></span>
+								</div>
+						<div class="confirm1">
+							Confirm Dinner 
+						</div>
+
+					</div>
+
+					<div class="right">
+						<div class="select-dish">
+							<div class="streck">
+								SELECT DISH
+							</div>
+							<div class ="val">
+							Enter key words
+							</div>
+							<div class="search">
+								search
+							</div>
+							
+							<button class="menuButt" id="getMain">Main</button>
+							<button class="menuButt" id="getStarter">Starter</button>
+							<button class="menuButt" id="getDessert">Dessert</button>
+						</div>
+						<div class= "bottom">
+							<div class="options">
+
+								<span class="getAllDishes"></span>
+						
+							</div>
+							<div class="info-options">
+								
+								<span id="Lorem"></span>
+							</div>
+
+						</div>
+					
+					</div>
+			</div>
+  </div>
+
+
+  <div class="goDish" id="exampleView3">
+  				<div class="container3">
+		<div class="header2">
+			<h1>HOMELETTE<span id="text2">From the best chefs in the world directly into your kitchen</span></h1>
+		</div>
+	</div>
+
+	<div class="row1">
+					<div class="left1">
+						<div class="menu1">
+							My Dinner
+							<div id ="en-linje1">
+								<span id ="person">People</span>
+
+		
+				   				<span class ="numberOfGuests"> </span>
+				   				<button class="Button" id="plusButt">+</button>
+				   				<button class="Button" id="minusButt">-</button>
+				   			
+								
+							</div>
+						</div>
+
+						<div class="DishName">
+							Dishname <span id="floatright">Cost</span>
+
+						</div>
+
+						<div>
+							<div class ="cost">
+								Pending 
+						
+								<span id="floatright">
+									<span id="getSel"></span>
+								<span class="empty"></span>
+
+								</span>
+
+							</div>
+						</div>
+						
+
+								<div class ="kostnad">
+									<span id="floatright">SEK
+
+									<span class="empty"></span>
+
+									</span>
+									<span id="getSel"></span>
+								</div>
+						<div class="confirm1">
+							Confirm Dinner 
+						</div>
+
+					</div>
+
+						
+						<div id="box-right">
+							<div id="litenbox">
+							<p id="ingredients">INGREDIENTS for <span class="numberOfGuests"></span> people</p>
+									<div class="line-separator">
+									</div>
+										<div id="blocks"></span>
+											<div id="measure">
+												<ul>
+													<li>
+														<ul id="loopLista">
+															<span class="getAllIngredients">
+															</span>
+															
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="line-separator">
+										</div>
+									<div class ="button" id="confirm-dish">
+										<p>Confirm Dish</p>
+									</div>
+									<div id="totalkostnad">
+												<p>SEK <span class="getTotalMenuPrice"></span></p>
+											</div>
+							</div>
+						
+
+							<div id="overlay">
+								<p id="lasagne"><span class="getSelectedDish"></span></p>
+
+								<div id="lasagnebild"><span class="getAllDishes"></span></div>
+
+								<p id="brodtext"><span class="Lorem"></span></p>
+								<div class="button" id="backbutton">
+									<button id="BackButton">Back to Select Dish</button>
+								</div>
+							</div>
+						</div>
+
+
+  </div>
+
+
+  <div id="exampleView4">
+						  	<div class="container2">
+								<h1>HOMELETTE<span class="info">From the best chefs in the world directly into your kitchen </span>
+								</h1>
+							</div>
+							<div class="row">
+							<div class="left">
+								<div class="menu">
+									My Dinner
+									<div id ="en-linje">
+										<span id ="person">People</span>
+										<div class ="ruta"><span id="numberOfGuests"></span>
+										</div>
+										<div class ="ruta"><img id="pilar" src= "http://www.pngdot.com/wp-content/uploads/2015/11/Up_Down_Arrow_Png_01.png">
+										</div>
+									</div>
+								</div>
+
+								<div class="DishName">
+									Dishname <span id="floatright">Cost</span>
+
+								</div>
+
+								<div>
+									<div class="order">
+										4 <span id="center"><span class="getSelectedDish"></span></span>
+										<span id="floatright"><span id="getPrice"></span></span>
+									</div>
+									<div class="circle">X</div>
+									<div class ="cost">
+										<span id="center2">Pending</span> <span id="floatright">0.00</span>
+
+									</div>
+								</div>
+
+										<div class ="kostnad">
+											<span id="floatright">SEK <span class="getTotalMenuPrice"></span></span>
+										</div>
+								<div class="confirm2
+								">
+									Confirm Dinner 
+								</div>
+
+							</div>
+							<div class="right">
+								<div class="select-dish">
+									<div class="streck">
+										SELECT DISH
+									</div>
+									<div class ="val">
+									Enter key words
+									</div>
+									<div class="search">
+										search
+									</div>
+									<div class ="val">
+									Main
+									</div>
+									<div class="val2">
+										<div class="ruta">
+											<img src= "http://www.clker.com/cliparts/Y/R/r/p/R/X/down-arrow-filled-no-point-th.png" style="max-height: 100%;">
+										</div>
+									</div>
+								</div>
+								<div class= "bottom">
+
+									<div class="options">
+
+										<span class="getAllDishes"></span>
+								
+									</div>
+
+									<div class="info-options">
+									
+										<span id="Lorem"></span>
+
+									</div>
+								</div>
+							</div>
+
+
+  </div>
+
+  <div id="exampleView5">
+		  <div class="container5">
+				<h1>HOMELETTE<span class="info">From the best chefs in the world directly into your kitchen </span>
+				</h1>
+			</div>
+			<div id="mydinner">
+				<h1>My dinner: <span id ="numberOfGuests"></span> people</h1>
+				<div class="go-here">
+				Go back and edit dinner
+				</div>
+			</div>
+
+			<div class="options">
+
+						<span class="YourMenu"></span>
+						</div>
+						
+
+
+			</div>
+			
+			<div id="line"></div>
+			<div class="prischeck">
+				<span class="getPrice2"></span>
+			</div>
+
+			<div class="total">Total: <p><span id="menuPrice"></span> SEK</p></div>
+			
+						
+
+						
+				<hr></hr>
+				<div class="confirm">
+					Print Full Recipe 
+				</div>
+			
+
+  </div>
+
+
+  <div id="exampleView6">
+		  	<div class="container6">
+				<h1>HOMELETTE<span class="info">From the best chefs in the world directly into your kitchen </span>
+				</h1>
+			</div>
+			<div id="mydinner">
+				<h1>My dinner: <span class="numberOfGuests"></span> people</h1>
+				<div class="go-here">
+				Go back and edit dinner
+				</div>
+			</div>
+
+			<span class="getADish"></span>
+  </div>
+      <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/dinnerModel.js"></script>
+	<script src="js/view/exampleView1.js"></script>
+	<script src="js/view/exampleView2.js"></script>
+	<script src="js/view/exampleView3.js"></script>
+	<script src="js/view/exampleView4.js"></script>
+	<script src="js/view/exampleView5.js"></script>
+	<script src="js/view/exampleView6.js"></script>
+
+	<script src="js/view/exampleViewController.js"></script>
+	<script src="js/view/exampleView1Controller.js"></script>
+	<script src="js/view/exampleView2Controller.js"></script>
+	<script src="js/view/exampleView3Controller.js"></script>
+	</body>
+</html>

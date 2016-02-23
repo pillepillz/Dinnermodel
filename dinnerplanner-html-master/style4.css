@@ -1,0 +1,233 @@
+.container{
+	background: #D3D3D3;
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 0.1%;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	font-family: Verdana;
+	font-size: 16px;
+	border-top-style: solid;
+	border-bottom-style: solid; 
+	border-color: black;
+}
+.menu{
+	font-family: Verdana;
+	font-size: 16px;
+	padding-left: 1%;
+	padding-right: 8%;
+	border-bottom-style: solid;
+	display: inline-block;
+	font-weight: bold;
+	padding-top: 2%;
+}
+.select-dish{
+	border-bottom-style: solid;
+	border-top-style: solid;
+	width:100%;
+	max-height: 20%;
+	background-color: #f0c558;
+	padding-left: 6%;
+	padding-top: 3%;
+	font-weight: bold;
+	font-family: Verdana;
+
+}
+.val{
+	display: inline-block;
+	background-color: white;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-left-style: solid;
+	margin-bottom: 5%;
+	padding-right: 15%;
+}
+.val2{
+	margin-left: -3%;
+	margin-right: 7%;
+	margin-bottom: -1.1%;
+	display:inline-block;
+	padding: 0.4%;
+}
+.mat{
+	border-style: solid;
+	width: 16%;
+	display: inline-block;
+	margin-right: 5%;
+
+}
+.bottom{
+
+}
+.row{
+	display: flex;
+	height: 100%;
+	width:100%;
+
+}
+.search{
+	background-color: orange;
+	border-style: solid;
+	display:inline-block;
+	padding: 0.4%;
+	box-shadow: 2px 2px 2px black;
+	margin-left: -5%;
+	margin-right: 7%;
+	
+}
+.ruta{
+	border-style: solid;
+	height: 15px;
+	width: 15px;
+	padding:10%;
+	background-color: white;
+	display: inline-flex;
+	float: right;
+}
+.left{
+	height: 100vh;
+	border-style: solid;
+	width: 30vh; 
+	
+
+}
+.right{
+	height: 100vh;
+	width: 100%;
+	
+}
+.streck{
+	border-bottom: solid;
+	margin-bottom: 3%;
+	margin-right: 20%;
+
+}
+.cost{
+	color: red;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	padding-bottom: 10%;
+	border-bottom-style: solid; 
+	border-color: black;
+}
+.order{
+	color: red;
+	margin-right: 8%;
+	margin-left: 6%;
+	margin-top: 6%;
+	border-style: solid;
+	border-color: black;
+	padding: 1%;
+	background-color: #D3D3D3;	
+}
+.DishName{
+	background-color: #D3D3D3;
+	border-bottom-style: solid;
+}
+.confirm{
+	background: #f5b513;
+	margin-top: 40%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-style:solid;
+	box-shadow: 5px 5px 5px black;
+	opacity: 0.4;
+
+}
+.confirm2{
+	background: #f5b513;
+	margin-top: 40%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-style:solid;
+	box-shadow: 5px 5px 5px black;
+}
+.kostnad{
+	color:red;
+	padding-right: 10%;
+}
+.text{
+	border-top-style: solid;
+	background-color: #D3D3D3;
+	text-align: center;
+}
+.text2{
+	width: 16%;
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 12px;
+	border-style: solid;
+	border-color: white;
+}
+.options{
+	margin-top: 10%;
+	margin-left: 6%;
+	display: inline-block;
+}
+.info-options{
+	margin-left: 6%;
+	display: inline-block;
+	margin-top: 3%;
+}
+.info{
+	font-family: Verdana;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 10%;
+}
+#person{
+	font-size: 12px;
+	font-family: Verdana;
+	font-weight: normal;
+	margin-right: 10%; 
+}
+#en-linje{
+	display: inline-flex;
+	padding-bottom: 20%;
+	padding-top: 12%;
+}
+#floatright{
+	float: right;
+}
+#bild{
+	width: 100%;
+	margin-bottom: -3%;
+	height: 10vh;
+}
+#center{
+	padding-left: 8%;
+	font-size:14px;
+}
+#center2{
+	padding-left:31%;
+}
+.circle{
+	height: 11px;
+	width: 11px;
+	border-radius: 6px;
+	color:black;
+	line-height: 11px;
+	text-align: center;
+	background-color: red;
+	border-style: solid;
+	border-color: black;
+	font-weight: bold;
+	margin-left: 85%;
+	margin-top: -5%;
+}
+#pilar{
+	max-height: 100%;
+}

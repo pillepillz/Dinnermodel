@@ -1,0 +1,182 @@
+.container{
+	background: #D3D3D3;
+	width: 100%;
+	margin-top: 0%;
+	padding-top: 0.1%;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	font-family: Verdana;
+	font-size: 16px;
+	border-top-style: solid;
+	border-bottom-style: solid; 
+	border-color: black;
+}
+
+.info{
+	font-family: Verdana;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 10%;
+}
+
+#mydinner{
+	background-color: #f0c558;
+	display: flex;
+	height: 100%;
+	width:100%;
+	border-bottom-style: solid;
+	padding-left: 5%;  
+	padding-top: -1%;
+	padding-bottom: -1%;
+}
+.go-here{
+	background-color: orange;
+	border-style: solid;
+	float:right;
+	margin-left: 45%;
+	font-size: 16px;
+	margin-top:2%;
+	margin-bottom:2%;
+	margin-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 5%;
+	padding-right: 1%;
+	border-radius: 50% 0% 0% 50%;
+}
+.mat{
+	border-style: solid;
+	width: 16%;
+	display: inline-block;
+	margin-right: 2%;
+}
+#mat2{
+	border-style: solid;
+	width:700px;
+	height:150px;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+#lasagnen{
+	width:100%;
+	height:150px;
+
+
+}
+.options{
+	margin-top: 10%;
+	margin-left: 30%;
+	display: inline-block;
+}
+.options2{
+	margin-left:35%;
+	display: inline-flex;
+	border-style: solid;
+
+}
+.text{
+	border-top-style: solid;
+	background-color: #D3D3D3;
+	text-align: center;
+}
+.total{
+	width: 16%;
+	display: inline-block;
+	position: absolute;
+	margin-left: 2%;
+	margin-top: -5%;
+}
+.text2{
+	width: 16%;
+	display: inline-block;
+	margin-right: 2%;
+	font-size: 12px;
+	border-style: solid;
+	border-color: black;
+}
+#text-right{
+	float:right;
+	color:red;
+	font-size: 14px;
+	margin-top: 2%;
+	border-style: solid;
+}
+
+p{
+	color:red;
+	margin-top: -0.5%;
+}
+hr{
+	width: 80%;
+	margin-top:2%;
+	border-style: solid;
+
+}
+.order{
+	display: inline-flex;
+	width: 100%;
+	margin-top: 3%;
+}
+.order-left{
+	display:inline-flex;
+	width: 50%;
+	margin-right: 10%;
+	padding-left: 5%;
+	
+}
+.order-right{
+	width:50%;
+	margin-right: 10%;
+}
+.confirm{
+	background: #f5b513;
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-right: 40%;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-style:solid;
+	box-shadow: 5px 5px 5px black;
+}
+
+#bild{
+	width: 100%;
+	margin-bottom: -3%;
+	height: 10vh;
+
+}
+#line{
+	border-left: 3px solid black;
+	height: 130px;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	top:0;
+	left:0;
+	margin-top: 20%;
+	margin-left:62%;
+
+}
+
+.prischeck{
+
+margin-left: 25%;
+display: inline-flex;
+width:500px;
+padding-left:8%;
+
+
+
+}
+.element{
+display: inline-flex;
+padding-right: 50px;
+color:red;
+
+
+
+
+}
+

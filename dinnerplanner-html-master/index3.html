@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style3.css">
+
+  </head>
+  <body id="exampleView3">
+	
+	<div class="container">
+		<div class="header">
+			<h1>HOMELETTE<span id="text1">From the best chefs in the world directly into your kitchen</span></h1>
+		</div>
+	</div>
+
+	<div class="box-left">
+
+		<div id="dinner-box">
+			<p id="my-dinner">My Dinner</p>
+			<div id="peoplething">
+				<p id="people">People</p>
+				<p id="hej"><span class="numberOfGuests"></span></p>
+			</div>
+		</div>
+
+		<div id="dish-name">
+			<p style="margin-left:2%;">Dish Name<span id="cost">Cost</span> </p>
+		</div>
+		
+		<div id="pending">
+			<p>Pending<span style="float:right; padding-right:2%;"><span id="getSel"></span></span> SEK</p>
+			
+		</div>
+
+		<div id ="pengaborder">
+			<p id="pengar">SEK <span class="getTotalMenuPrice"></span></p>
+		</div>
+		
+		<div class ="button" id="confirm-button">
+			<p>Confirm Dinner</p>
+		</div>
+	</div>
+
+	
+	<div id="box-right">
+		<div id="litenbox">
+		<p id="ingredients">INGREDIENTS for <span class="numberOfGuests"></span> people</p>
+				<div class="line-separator">
+				</div>
+					<div id="blocks"></span>
+						<div id="measure">
+							<ul>
+								<li>
+									<ul id="loopLista">
+										<span id="getAllIngredients">
+										</span>
+										
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="line-separator">
+					</div>
+				<div class ="button" id="confirm-dish">
+					<p>Confirm Dish</p>
+				</div>
+				<div id="totalkostnad">
+							<p>SEK <span class="getTotalMenuPrice"></span></p>
+						</div>
+		</div>
+	
+
+		<div id="overlay">
+			<p id="lasagne"><span class="getSelectedDish"></span></p>
+
+			<div id="lasagnebild"><span class="getAllDishes"></span></div>
+
+			<p id="brodtext"><span class="Lorem"></span></p>
+			<div class="button" id="backbutton">
+				<p>Back to select dish</p>
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="js/app.js"></script>
+	<script src="js/model/dinnerModel.js"></script>
+	<script src="js/view/exampleView2.js"></script>
+	<script src="js/view/exampleView3.js"></script>
+	<script src="js/view/exampleView4.js"></script>
+	<script src="js/view/exampleView5.js"></script>
+	<script src="js/view/exampleView6.js"></script>
+	<script src="js/view/exampleViewController.js"></script>
+  </body>
+</html>

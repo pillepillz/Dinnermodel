@@ -1,0 +1,306 @@
+.container{
+	background-color:#D3D3D3;
+	width:100%;
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+	height:120px;
+	position:relative;
+
+	
+}
+
+h1{
+	font-family:"Times New Roman",Times,serif;
+	font-size:400%;
+}
+.header{
+	padding-left:5%;
+}
+
+#text1{
+	font-size:40%;
+	padding-left:3%;
+	font-style:italic;
+}
+
+.box-left{
+	border-style:solid;
+	border-color:black;
+	border-size:3px;
+	border-top:1px;
+	width:20%;
+	height:100vh;
+	overflow:hidden;
+	float:left;
+
+}
+
+#my-dinner{
+	font-size:150%;
+	font-style:bold;
+
+
+}
+
+#dinner-box{
+	padding-left:5%;
+	padding-top:5%;
+	border-style:solid;
+	border-top:1px;
+	border-left:1px;
+	border-right:1px;
+
+}
+
+#hej{
+	border-style:solid;
+	border-color:black;
+	border-size: 2px;
+	padding-left:2%;
+	padding-right:2%;
+	margin-left:3%;
+	margin-bottom:5%;
+}
+
+#peoplething{
+	display: flex;
+}
+
+#dish-name{
+	border-style:solid;
+	border-top:1px;
+	border-left:1px;
+	border-right:1px;
+	background-color:#D3D3D3;
+}
+
+
+#cost{
+	float:right;
+	margin-right:5%;
+
+}
+
+#pending{
+	border-style:solid;
+	border-color:#867970;
+	background-color:#fff;
+	margin-right:3%;
+	margin-left:3%;
+	margin-top:2%;
+	color:red;
+	margin-bottom:1%;
+	padding-left:2%;
+	padding-top:1%;
+}
+
+
+#pengar{
+	padding-right:1%;
+	float:right;
+	padding-top:5%;
+	color:red;
+	font-size:18px;
+}
+
+#pengaborder{
+	border-top:1px;
+	border-bottom-style:solid;
+	margin-right:10%;
+	margin-left:10%;
+	padding-top:2%;
+
+}
+.button{
+	display:inline-block;
+	cursor:pointer;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding-left:7%;
+	padding-top:1%;
+	padding-right:7%;
+	text-decoration:none;
+}
+
+#confirm-button {
+	border:2px solid #8f8c8f;
+	margin-top:10%;
+	margin-left:35%;
+	background-color:#fad35f;
+	color:#9e9e9e;
+	box-shadow: 3px 3px 4px 0px #949993;
+	-moz-box-shadow: 3px 3px 4px 0px #949993;
+	-webkit-box-shadow: 3px 3px 4px 0px #949993;
+
+}
+
+#box-right{
+	border-style:solid;
+	border-color:black;
+	border-top:1px;
+	border-left:1px;
+	width:80%;
+	height:100vh;
+	display:inline-block;
+	position:relative;
+
+}
+
+#lasagne{
+	margin-left:10%;
+	font-size:30px;
+	margin-top:2%;
+	font-family:"Comic-sans";
+}
+
+
+#lasagnebild{
+	margin-left:10%;
+	width:100%;
+}
+
+#brodtext{
+	margin-left:10%;
+	padding-right:10%;
+
+}
+
+#backbutton{
+	margin-left:10%;
+	margin-top:5%;
+	border:2px solid black;
+	margin-top:10%;
+	margin-left:35%;
+	background-color:orange;
+	color:black;
+	box-shadow: 3px 3px 4px 0px black;
+	-moz-box-shadow: 3px 3px 4px 0px black;
+	-webkit-box-shadow: 3px 3px 4px 0px black;
+}
+
+#litenbox{
+	border-style:solid;
+	border-color:black;
+	border-top:1px;
+	margin-left:50%;
+	margin-right:7%;
+	height:60%;
+	background-color:rgba(255,255,102, 0.5);
+}
+
+#ingredients{
+	padding-left:8%;
+	padding-top:2%;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.line-separator{
+	height:2px;
+	background:#717171;
+	border-bottom:1px solid #313030;
+	width:90%;
+	margin-left:8%;
+	position:relative;
+
+}
+
+#overlay {
+  	width: 50%;
+  	height: 100vh;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+	z-index: 10;
+
+}
+
+ul{
+	list-style-type:none;
+}
+
+#measure{
+	padding-top:2%;
+	width:100%;
+	height:100%;
+
+
+}
+
+li{
+	padding-top:10px;
+	font-family:"Comic-sans";
+	font-size:18px;
+
+}
+
+#ingrediensbox{
+	border-style:solid;
+	border-color:black;
+	border-size:1px;
+
+}
+
+#blocks{
+	display:inline-flex;
+	width:100%;
+}
+
+#pengarna{
+	
+	padding-top:2%;
+	height:100%;
+	width:100px;
+}
+
+#kronor{
+	padding-top:2%;
+	height:100%;
+	width:50px;
+}
+
+#confirm-dish{
+	margin-top:2%;
+	margin-left:5%;
+	background-color:orange;
+	border:2px solid black;
+	color:black;
+	box-shadow: 3px 3px 4px 0px black;
+	-moz-box-shadow: 3px 3px 4px 0px black;
+	-webkit-box-shadow: 3px 3px 4px 0px black;
+
+}
+#totalkostnad{
+
+	margin-left:82%;
+	font-size:18px;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+	z-index: 10;
+	margin-top:40%;
+}
+
+
+#loopLista{
+	text-align:justify;
+	display:inline;
+	padding-left:1%;
+	
+}
+#loopLista li{
+	display: inline-flex;
+	padding-right:55px;
+}
+
+
+
+
+
+
+
+
+
+
